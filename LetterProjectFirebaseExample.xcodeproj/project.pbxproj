@@ -57,8 +57,10 @@
 		9E11838D2B500C8F00E0E1B0 /* LetterProjectFirebaseExample */ = {
 			isa = PBXGroup;
 			children = (
-				9E11838E2B500C8F00E0E1B0 /* LetterProjectFirebaseExampleApp.swift */,
-				9E1183902B500C8F00E0E1B0 /* ContentView.swift */,
+				9E1183AA2B500F7F00E0E1B0 /* App */,
+				9E1183A92B500F7B00E0E1B0 /* Components */,
+				9E1183A82B500F7800E0E1B0 /* Core */,
+				9E1183A22B500F5B00E0E1B0 /* Model */,
 				9E1183922B500C9100E0E1B0 /* Assets.xcassets */,
 				9E1183942B500C9100E0E1B0 /* Preview Content */,
 			);
@@ -71,6 +73,76 @@
 				9E1183952B500C9100E0E1B0 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		9E1183A22B500F5B00E0E1B0 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		9E1183A32B500F6A00E0E1B0 /* Root */ = {
+			isa = PBXGroup;
+			children = (
+				9E1183902B500C8F00E0E1B0 /* ContentView.swift */,
+			);
+			path = Root;
+			sourceTree = "<group>";
+		};
+		9E1183A42B500F6C00E0E1B0 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		9E1183A52B500F7100E0E1B0 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		9E1183A62B500F7300E0E1B0 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		9E1183A72B500F7600E0E1B0 /* Authentication */ = {
+			isa = PBXGroup;
+			children = (
+				9E1183A62B500F7300E0E1B0 /* View */,
+				9E1183A52B500F7100E0E1B0 /* ViewModel */,
+			);
+			path = Authentication;
+			sourceTree = "<group>";
+		};
+		9E1183A82B500F7800E0E1B0 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				9E1183A72B500F7600E0E1B0 /* Authentication */,
+				9E1183A42B500F6C00E0E1B0 /* Profile */,
+				9E1183A32B500F6A00E0E1B0 /* Root */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		9E1183A92B500F7B00E0E1B0 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		9E1183AA2B500F7F00E0E1B0 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				9E11838E2B500C8F00E0E1B0 /* LetterProjectFirebaseExampleApp.swift */,
+			);
+			path = App;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
