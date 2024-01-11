@@ -47,6 +47,7 @@
 		9E1183ED2B50143C00E0E1B0 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E1183EC2B50143C00E0E1B0 /* ProfileView.swift */; };
 		9E1183EF2B50149400E0E1B0 /* SettingsRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E1183EE2B50149400E0E1B0 /* SettingsRowView.swift */; };
 		9E1183F12B50155E00E0E1B0 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E1183F02B50155E00E0E1B0 /* User.swift */; };
+		9E1183F32B50197D00E0E1B0 /* AuthViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E1183F22B50197C00E0E1B0 /* AuthViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -64,6 +65,7 @@
 		9E1183EC2B50143C00E0E1B0 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
 		9E1183EE2B50149400E0E1B0 /* SettingsRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsRowView.swift; sourceTree = "<group>"; };
 		9E1183F02B50155E00E0E1B0 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		9E1183F22B50197C00E0E1B0 /* AuthViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -171,6 +173,7 @@
 		9E1183A52B500F7100E0E1B0 /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
+				9E1183F22B50197C00E0E1B0 /* AuthViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -333,6 +336,7 @@
 				9E1183ED2B50143C00E0E1B0 /* ProfileView.swift in Sources */,
 				9E1183EB2B50139600E0E1B0 /* RegistrationView.swift in Sources */,
 				9E1183EF2B50149400E0E1B0 /* SettingsRowView.swift in Sources */,
+				9E1183F32B50197D00E0E1B0 /* AuthViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
