@@ -18,6 +18,8 @@ struct RegistrationView: View {
     private let windowScene = UIApplication.shared.connectedScenes.first as? UIWindowScene
     //뷰를 해제하는 기능 설정
     @Environment(\.dismiss) var dismiss
+    //ViewModel: EnvironmentObject는 딱 한 곳에서만 생성(init)할 수 있다.
+    @EnvironmentObject var viewModel: AuthViewModel
     
     var body: some View {
         ZStack {
