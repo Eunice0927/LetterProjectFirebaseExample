@@ -44,6 +44,8 @@
 		9E1183E72B5012D100E0E1B0 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E1183E62B5012D100E0E1B0 /* LoginView.swift */; };
 		9E1183E92B50131D00E0E1B0 /* InputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E1183E82B50131D00E0E1B0 /* InputView.swift */; };
 		9E1183EB2B50139600E0E1B0 /* RegistrationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E1183EA2B50139600E0E1B0 /* RegistrationView.swift */; };
+		9E1183ED2B50143C00E0E1B0 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E1183EC2B50143C00E0E1B0 /* ProfileView.swift */; };
+		9E1183EF2B50149400E0E1B0 /* SettingsRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E1183EE2B50149400E0E1B0 /* SettingsRowView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -58,6 +60,8 @@
 		9E1183E62B5012D100E0E1B0 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		9E1183E82B50131D00E0E1B0 /* InputView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputView.swift; sourceTree = "<group>"; };
 		9E1183EA2B50139600E0E1B0 /* RegistrationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationView.swift; sourceTree = "<group>"; };
+		9E1183EC2B50143C00E0E1B0 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		9E1183EE2B50149400E0E1B0 /* SettingsRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsRowView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -156,6 +160,7 @@
 		9E1183A42B500F6C00E0E1B0 /* Profile */ = {
 			isa = PBXGroup;
 			children = (
+				9E1183EC2B50143C00E0E1B0 /* ProfileView.swift */,
 			);
 			path = Profile;
 			sourceTree = "<group>";
@@ -199,6 +204,7 @@
 			isa = PBXGroup;
 			children = (
 				9E1183E82B50131D00E0E1B0 /* InputView.swift */,
+				9E1183EE2B50149400E0E1B0 /* SettingsRowView.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -320,7 +326,9 @@
 				9E1183E92B50131D00E0E1B0 /* InputView.swift in Sources */,
 				9E1183912B500C8F00E0E1B0 /* ContentView.swift in Sources */,
 				9E11838F2B500C8F00E0E1B0 /* LetterProjectFirebaseExampleApp.swift in Sources */,
+				9E1183ED2B50143C00E0E1B0 /* ProfileView.swift in Sources */,
 				9E1183EB2B50139600E0E1B0 /* RegistrationView.swift in Sources */,
+				9E1183EF2B50149400E0E1B0 /* SettingsRowView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
