@@ -28,6 +28,7 @@ struct YourApp: App {
         WindowGroup {
             NavigationView {
                 ContentView()
+                    .environmentObject(viewModel)
             }
         }
     }
