@@ -8,17 +8,19 @@
 import SwiftUI
 
 struct ContentView: View {
+    @EnvironmentObject var viewModel: AuthViewModel
+    
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+        Group {
+            if viewModel.userSession != nil {
+                //userSession이 있으면 ProfileView를 보여줌
+                ProfileView()
+            } else {
+                LoginView()
+            }
         }
-        .padding()
     }
 }
-
 #Preview {
     ContentView()
 }
