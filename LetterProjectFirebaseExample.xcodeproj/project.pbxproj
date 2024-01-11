@@ -41,6 +41,8 @@
 		9E1183E12B5011CE00E0E1B0 /* FirebaseRemoteConfigSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 9E1183E02B5011CE00E0E1B0 /* FirebaseRemoteConfigSwift */; };
 		9E1183E32B5011CE00E0E1B0 /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = 9E1183E22B5011CE00E0E1B0 /* FirebaseStorage */; };
 		9E1183E52B5011CE00E0E1B0 /* FirebaseStorageCombine-Community in Frameworks */ = {isa = PBXBuildFile; productRef = 9E1183E42B5011CE00E0E1B0 /* FirebaseStorageCombine-Community */; };
+		9E1183E72B5012D100E0E1B0 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E1183E62B5012D100E0E1B0 /* LoginView.swift */; };
+		9E1183E92B50131D00E0E1B0 /* InputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E1183E82B50131D00E0E1B0 /* InputView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -52,6 +54,8 @@
 		9E11839E2B500DBC00E0E1B0 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		9E1183A02B500DCF00E0E1B0 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 		9E1183AD2B50119200E0E1B0 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		9E1183E62B5012D100E0E1B0 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		9E1183E82B50131D00E0E1B0 /* InputView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -164,6 +168,7 @@
 		9E1183A62B500F7300E0E1B0 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				9E1183E62B5012D100E0E1B0 /* LoginView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -190,6 +195,7 @@
 		9E1183A92B500F7B00E0E1B0 /* Components */ = {
 			isa = PBXGroup;
 			children = (
+				9E1183E82B50131D00E0E1B0 /* InputView.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -307,6 +313,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9E1183E72B5012D100E0E1B0 /* LoginView.swift in Sources */,
+				9E1183E92B50131D00E0E1B0 /* InputView.swift in Sources */,
 				9E1183912B500C8F00E0E1B0 /* ContentView.swift in Sources */,
 				9E11838F2B500C8F00E0E1B0 /* LetterProjectFirebaseExampleApp.swift in Sources */,
 			);
