@@ -59,6 +59,11 @@ struct AddNewLetterView: View {
                 Spacer().frame(height: 20)
             } //VStack
         } //ZStack
+        .onDisappear {
+            writer = ""
+            recipient = ""
+            summary = ""
+        }
     }
 }
 
