@@ -17,7 +17,7 @@ struct ContentView: View {
             if viewModel.userSession != nil {
                 //userSession이 있으면 ProfileView를 보여줌
                 TabView {
-                    DataListView()
+                    LetterListView()
                         .tabItem {
                             Image(systemName: "list.star")
                             Text("Data List")
