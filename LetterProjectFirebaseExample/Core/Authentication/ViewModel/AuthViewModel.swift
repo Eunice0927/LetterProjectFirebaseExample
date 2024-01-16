@@ -9,6 +9,11 @@ import Foundation
 import FirebaseAuth
 import FirebaseFirestore
 
+//로그인하는데 사용하는 Form마다 적용하여 Form의 내용이 유효한지 검증한다.
+protocol AuthenticationProtocol {
+    var formIsValid: Bool { get }
+}
+
 //오류: Publishing changes from background threads is not allowed; make sure to publish values from the main thread (via operators like receive(on:)) on model updates.
 //UI 업데이트는 꼭 메인 스레드에서 진행되어야 한다.
 //비동기 네트워킹은 기본적으로 메인이 아닌 다른 스레드에서 진행되므로
