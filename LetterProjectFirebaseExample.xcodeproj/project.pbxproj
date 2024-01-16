@@ -52,6 +52,7 @@
 		9E48B64E2B563ED00055528C /* FirestoreViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E48B64D2B563ED00055528C /* FirestoreViewModel.swift */; };
 		9E48B6512B563F310055528C /* Letter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E48B6502B563F310055528C /* Letter.swift */; };
 		9E51BB542B569C9300A6BDCC /* LetterDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E51BB532B569C9300A6BDCC /* LetterDetailView.swift */; };
+		9E51BB562B569D6200A6BDCC /* AddNewLetterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E51BB552B569D6200A6BDCC /* AddNewLetterView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -74,6 +75,7 @@
 		9E48B64D2B563ED00055528C /* FirestoreViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirestoreViewModel.swift; sourceTree = "<group>"; };
 		9E48B6502B563F310055528C /* Letter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Letter.swift; sourceTree = "<group>"; };
 		9E51BB532B569C9300A6BDCC /* LetterDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LetterDetailView.swift; sourceTree = "<group>"; };
+		9E51BB552B569D6200A6BDCC /* AddNewLetterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNewLetterView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -247,6 +249,7 @@
 			children = (
 				9E48B64B2B563E170055528C /* LetterListView.swift */,
 				9E51BB532B569C9300A6BDCC /* LetterDetailView.swift */,
+				9E51BB552B569D6200A6BDCC /* AddNewLetterView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -375,6 +378,7 @@
 				9E1183F12B50155E00E0E1B0 /* User.swift in Sources */,
 				9E1183ED2B50143C00E0E1B0 /* ProfileView.swift in Sources */,
 				9E1183EB2B50139600E0E1B0 /* RegistrationView.swift in Sources */,
+				9E51BB562B569D6200A6BDCC /* AddNewLetterView.swift in Sources */,
 				9E1183EF2B50149400E0E1B0 /* SettingsRowView.swift in Sources */,
 				9E1183F32B50197D00E0E1B0 /* AuthViewModel.swift in Sources */,
 			);
