@@ -65,16 +65,55 @@ struct LetterDetailView: View {
 
 struct AddNewLetterView: View {
     @EnvironmentObject var letterViewModel: FirestoreViewModel
+    @Environment(\.dismiss) var dismiss
+    @State var writer: String = ""
+    @State var recipient: String = ""
+    @State var summary: String = ""
+    @State var date: Date = Date()
     
     var body: some View {
-        Button {
-            letterViewModel.addLetter(writer: "meow",
-                                      recipient: "you",
-                                      summary: "helooo",
-                                      date: Date())
-        } label: {
-            Text("Add")
-        }
+        ZStack {
+            Form {
+                VStack(alignment: .leading) {
+                    HStack {
+                        Text("보낸 사람")
+                        TextField("보낸 사람", text: $writer)
+                    }
+                    
+                    HStack {
+                        Text("받는 사람")
+                        TextField("받는 사람", text: $recipient)
+                    }
+                    
+                    HStack {
+                        Text("날짜")
+                        Text("1234-00-00")
+                    }
+                    
+                    HStack {
+                        Text("내용")
+                        TextField("내용", text: $summary)
+                    }
+                } //VStack
+            } //Form
+            
+            VStack {
+                Spacer()
+                
+                Button {
+                    letterViewModel.addLetter(writer: writer,
+                                              recipient: recipient,
+                                              summary: summary,
+                                              date: date)
+                    letterViewModel.fetchAllLetters()
+                    dismiss()
+                } label: {
+                    Text("Add")
+                }
+                
+                Spacer().frame(height: 20)
+            } //VStack
+        } //ZStack
     }
 }
 
