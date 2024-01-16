@@ -41,5 +41,5 @@ struct LetterDetailView: View {
 }
 
 #Preview {
-    LetterDetailView()
+    LetterDetailView(writer: Letter.letterSampleData.writer, recipient: Letter.letterSampleData.recipient, summary: Letter.letterSampleData.summary, date: "2024.01.01")
 }
