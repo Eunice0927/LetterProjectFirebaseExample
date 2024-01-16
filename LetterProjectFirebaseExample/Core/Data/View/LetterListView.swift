@@ -23,6 +23,9 @@ struct LetterListView: View {
                                     Text("To: \(letter.recipient)")
                                     
                                     Spacer()
+                                    
+                                    Text("\(letterViewModel.dateString(date: letter.date))")
+                                        .foregroundStyle(.beigeGray)
                                 } //HStack
                                 
                                 Text(letter.summary)
@@ -30,11 +33,7 @@ struct LetterListView: View {
                                 HStack {
                                     Spacer()
                                     
-                                    VStack(alignment: .leading) {
-                                        Text("From: \(letter.writer)")
-                                        
-                                        //Text(letter.date)
-                                    } //VStack
+                                    Text("From: \(letter.writer)")
                                 } //HStack
                             } //VStack
                         } //Label
@@ -88,6 +87,7 @@ struct AddNewLetterView: View {
                     HStack {
                         Text("날짜")
                         Text("1234-00-00")
+                            .foregroundStyle(.beigeGray)
                     }
                     
                     HStack {
