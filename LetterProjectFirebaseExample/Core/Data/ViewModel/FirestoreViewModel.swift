@@ -70,7 +70,7 @@ class FirestoreViewModel: ObservableObject {
                                            writer: data["writer"] as? String ?? "",
                                            recipient: data["recipient"] as? String ?? "",
                                            summary: data["summary"] as? String ?? "",
-                                           date: data["date"] as? Timestamp ?? Timestamp(date: Date())))
+                                           date: data["date"] as? Date ?? Date()))
             }
         }
     }
