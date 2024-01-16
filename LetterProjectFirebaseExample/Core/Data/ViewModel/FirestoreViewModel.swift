@@ -74,5 +74,13 @@ class FirestoreViewModel: ObservableObject {
             }
         }
     }
+    
+    func dateString(date: Date) -> String {
+        let year = Calendar.current.component(.year, from: date)
+        let month = Calendar.current.component(.month, from: date)
+        let day = Calendar.current.component(.day, from: date)
+        
+        return "\(year).\(month).\(day)"
+    }
 }
 
