@@ -86,8 +86,8 @@ struct AddNewLetterView: View {
                     
                     HStack {
                         Text("날짜")
-                        Text("1234-00-00")
-                            .foregroundStyle(.beigeGray)
+                        
+                        Text("\(letterViewModel.dateString(date: date))")
                     }
                     
                     HStack {
