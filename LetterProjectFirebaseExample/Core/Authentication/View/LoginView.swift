@@ -61,6 +61,8 @@ struct LoginView: View {
                                height: 48)
                     }
                     .background(.letterDarkGray)
+                    .disabled(!formIsValid)
+                    .opacity(formIsValid ? 1.0 : 0.5)
                     .clipShape(RoundedRectangle(cornerRadius: 10))
                     .padding(.top, 24)
                     
