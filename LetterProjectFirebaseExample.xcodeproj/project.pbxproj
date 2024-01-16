@@ -51,6 +51,7 @@
 		9E48B64C2B563E170055528C /* LetterListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E48B64B2B563E170055528C /* LetterListView.swift */; };
 		9E48B64E2B563ED00055528C /* FirestoreViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E48B64D2B563ED00055528C /* FirestoreViewModel.swift */; };
 		9E48B6512B563F310055528C /* Letter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E48B6502B563F310055528C /* Letter.swift */; };
+		9E51BB542B569C9300A6BDCC /* LetterDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E51BB532B569C9300A6BDCC /* LetterDetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -72,6 +73,7 @@
 		9E48B64B2B563E170055528C /* LetterListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LetterListView.swift; sourceTree = "<group>"; };
 		9E48B64D2B563ED00055528C /* FirestoreViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirestoreViewModel.swift; sourceTree = "<group>"; };
 		9E48B6502B563F310055528C /* Letter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Letter.swift; sourceTree = "<group>"; };
+		9E51BB532B569C9300A6BDCC /* LetterDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LetterDetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -244,6 +246,7 @@
 			isa = PBXGroup;
 			children = (
 				9E48B64B2B563E170055528C /* LetterListView.swift */,
+				9E51BB532B569C9300A6BDCC /* LetterDetailView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -365,6 +368,7 @@
 				9E1183E92B50131D00E0E1B0 /* InputView.swift in Sources */,
 				9E1183912B500C8F00E0E1B0 /* ContentView.swift in Sources */,
 				9E48B6512B563F310055528C /* Letter.swift in Sources */,
+				9E51BB542B569C9300A6BDCC /* LetterDetailView.swift in Sources */,
 				9E48B64E2B563ED00055528C /* FirestoreViewModel.swift in Sources */,
 				9E11838F2B500C8F00E0E1B0 /* LetterProjectFirebaseExampleApp.swift in Sources */,
 				9E48B64C2B563E170055528C /* LetterListView.swift in Sources */,
