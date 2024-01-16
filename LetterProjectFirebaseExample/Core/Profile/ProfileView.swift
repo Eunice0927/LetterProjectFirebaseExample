@@ -62,6 +62,8 @@ struct ProfileView: View {
                     }
                 } //Section
             } //List
+        } else {
+            ProgressView()
         }
     }
 }
