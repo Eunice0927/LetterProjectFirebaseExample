@@ -16,7 +16,19 @@ struct ContentView: View {
             //ContentView는 viewModel에 업데이트가 없는지 listen하는 상태
             if viewModel.userSession != nil {
                 //userSession이 있으면 ProfileView를 보여줌
-                ProfileView()
+                TabView {
+                    DataListView()
+                        .tabItem {
+                            Image(systemName: "list.star")
+                            Text("Data List")
+                        }
+                    
+                    ProfileView()
+                        .tabItem {
+                            Image(systemName: "person")
+                            Text("Profile")
+                        }
+                }
             } else {
                 LoginView()
             }
