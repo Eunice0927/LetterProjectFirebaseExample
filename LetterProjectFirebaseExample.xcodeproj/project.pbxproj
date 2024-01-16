@@ -49,6 +49,7 @@
 		9E1183F12B50155E00E0E1B0 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E1183F02B50155E00E0E1B0 /* User.swift */; };
 		9E1183F32B50197D00E0E1B0 /* AuthViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E1183F22B50197C00E0E1B0 /* AuthViewModel.swift */; };
 		9E48B64C2B563E170055528C /* DataListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E48B64B2B563E170055528C /* DataListView.swift */; };
+		9E48B64E2B563ED00055528C /* FirestoreViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E48B64D2B563ED00055528C /* FirestoreViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -68,6 +69,7 @@
 		9E1183F02B50155E00E0E1B0 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		9E1183F22B50197C00E0E1B0 /* AuthViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthViewModel.swift; sourceTree = "<group>"; };
 		9E48B64B2B563E170055528C /* DataListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataListView.swift; sourceTree = "<group>"; };
+		9E48B64D2B563ED00055528C /* FirestoreViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirestoreViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -246,6 +248,7 @@
 		9E48B64A2B563DCE0055528C /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
+				9E48B64D2B563ED00055528C /* FirestoreViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -358,6 +361,7 @@
 				9E1183E72B5012D100E0E1B0 /* LoginView.swift in Sources */,
 				9E1183E92B50131D00E0E1B0 /* InputView.swift in Sources */,
 				9E1183912B500C8F00E0E1B0 /* ContentView.swift in Sources */,
+				9E48B64E2B563ED00055528C /* FirestoreViewModel.swift in Sources */,
 				9E11838F2B500C8F00E0E1B0 /* LetterProjectFirebaseExampleApp.swift in Sources */,
 				9E48B64C2B563E170055528C /* DataListView.swift in Sources */,
 				9E1183F12B50155E00E0E1B0 /* User.swift in Sources */,
